@@ -1,6 +1,15 @@
 #!/usr/bin/env ruby
 require_relative 'prime_multiplication_table.rb'
 
+
+
+begin
+  require "terminal-table" 
+rescue LoadError
+  puts "Could not load 'terminal-table'.  Please run 'gem install terminal-table' first." 
+  exit
+end
+
 user_arg = []
 if ARGV.length == 0
   user_arg = 10

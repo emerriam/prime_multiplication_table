@@ -33,8 +33,8 @@ prime_multiplication_table
 
  1 Trial division is the simplest test for primality. 
  	It is based on the definition of a prime number. 
- 	
  	A number is prime if it has no divisors other than itself and one.
+ 	
  2 Let n be the number you want to test.
  
  3 Divide n by 2. If the result is an integer, then n is not prime because 2
