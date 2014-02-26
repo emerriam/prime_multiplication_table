@@ -1,0 +1,20 @@
+#!/usr/bin/env ruby
+require_relative 'prime_multiplication_table.rb'
+
+user_arg = []
+if ARGV.length == 0
+  user_arg = 10
+elsif ARGV.length == 1
+  user_arg = ARGV.first
+  if user_arg == 'test'
+  	puts "RUNNING TESTS"
+  	exec 'for file in test/*.rb; do ruby $file; done'
+  else
+  	user_arg = user_arg.to_i
+  end
+else
+  puts "Usage : ./run_program <size>"
+  exit 1
+end
+
+PrimeMultiplicationTable.new(user_arg)
