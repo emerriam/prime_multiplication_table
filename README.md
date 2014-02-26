@@ -40,9 +40,15 @@ prime_multiplication_table
  	obviously not prime. For example, skip every even number greater than two
  	and every multiple of three greater than three.
 
- USAGE RUN: $ ./run_program <size>
-	default <size> is 10.
+ REQUIREMENTS: 
+ 		terminal-table gem
+ 
+ USAGE RUN: 
+ 		@ gem install terminal-table
+ 		$ ./run_program <size>
+			default <size> is 10.
 
- USAGE TEST: $ ./run_program test
+ USAGE TEST: 
+ 		$ ./run_program test
 
 
