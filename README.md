@@ -58,6 +58,7 @@ prime_multiplication_table
  		terminal-table gem
  
  USAGE RUN: 
+ 
  		$ gem install terminal-table
  		
  		$ ./run_program <size>
